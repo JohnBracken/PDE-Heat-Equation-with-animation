@@ -160,7 +160,7 @@ def animate(i):
 #at 10 fps.
 anim = animation.FuncAnimation(fig, animate, init_func = init, frames = movie_frames.shape[2], interval = 100)
 
-#Save the animation as an mp4 movie file.
+#Save the animation as an avi movie file.
 anim.save('heatmap_animation.avi')
 
 #Display the resulting animated heat map, which shows temperature changes in the plate over time as it cools down.
